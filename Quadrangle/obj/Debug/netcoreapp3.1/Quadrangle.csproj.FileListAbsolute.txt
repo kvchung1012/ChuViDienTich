@@ -1,0 +1,15 @@
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.exe
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.deps.json
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.runtimeconfig.json
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.runtimeconfig.dev.json
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.dll
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\bin\Debug\netcoreapp3.1\Quadrangle.pdb
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.csprojAssemblyReference.cache
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.Form1.resources
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.csproj.GenerateResource.cache
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.AssemblyInfoInputs.cache
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.AssemblyInfo.cs
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.csproj.CoreCompileInputs.cache
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.dll
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.pdb
+C:\Users\Delll\source\repos\Quadrangle\Quadrangle\obj\Debug\netcoreapp3.1\Quadrangle.genruntimeconfig.cache
