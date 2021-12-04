@@ -13,20 +13,35 @@ namespace Quadrangle.Model
 
         public double ChuVi()
         {
-            return dinh1.KhoangCach(dinh2) + dinh2.KhoangCach(dinh4) + dinh3.KhoangCach(dinh4) + dinh1.KhoangCach(dinh3);
-        }
-
-        public double DienTich()
-        {
-
             double a = dinh1.KhoangCach(dinh2);
             double b = dinh2.KhoangCach(dinh4);
             double c = dinh3.KhoangCach(dinh4);
             double d = dinh1.KhoangCach(dinh3);
+            return a + b + c + d;
+        }
 
-            double p = (a + b + c + d) / 2;
-            double s = Math.Sqrt((p - a) + (p - b) + (p - c) + (p - d));
-            return s;
+        public double DienTich()
+        {
+            TamGiac t1 = new TamGiac()
+            {
+                dinh1 = dinh1,
+                dinh2 = dinh2,
+                dinh3 = dinh3,
+            };
+            TamGiac t2 = new TamGiac()
+            {
+                dinh1 = dinh2,
+                dinh2 = dinh3,
+                dinh3 = dinh4,
+            };
+            return t1.DienTich() + t2.DienTich();
+
+            //double a = dinh1.KhoangCach(dinh2);
+            //double b = dinh2.KhoangCach(dinh4);
+            //double c = dinh3.KhoangCach(dinh4);
+            //double d = dinh1.KhoangCach(dinh3);
+            //double p = (a + b + c + d) / 2;
+            //return Math.Sqrt((p-a)*(p-b)*(p-c)*(p-d));
         }
     }
 }

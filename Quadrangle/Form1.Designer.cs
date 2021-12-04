@@ -258,42 +258,42 @@ namespace Quadrangle
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(339, 155);
+            this.textBox3.Location = new System.Drawing.Point(339, 117);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(125, 27);
             this.textBox3.TabIndex = 26;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(339, 117);
+            this.textBox4.Location = new System.Drawing.Point(339, 155);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(125, 27);
             this.textBox4.TabIndex = 25;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(87, 308);
+            this.textBox5.Location = new System.Drawing.Point(87, 270);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(125, 27);
             this.textBox5.TabIndex = 28;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(87, 270);
+            this.textBox6.Location = new System.Drawing.Point(87, 308);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(125, 27);
             this.textBox6.TabIndex = 27;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(339, 308);
+            this.textBox7.Location = new System.Drawing.Point(339, 266);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(125, 27);
             this.textBox7.TabIndex = 30;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(339, 270);
+            this.textBox8.Location = new System.Drawing.Point(339, 308);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(125, 27);
             this.textBox8.TabIndex = 29;

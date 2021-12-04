@@ -42,6 +42,38 @@ namespace Quadrangle
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //var dinhs = new List<ToaDo>()
+            //    {
+            //         new ToaDo()
+            //        {
+            //            x = -1,
+            //            y = 1
+            //        },
+            //         new ToaDo()
+            //        {
+            //            x = 1,
+            //            y = 1
+            //        },
+            //        new ToaDo()
+            //        {
+            //            x = -1,
+            //            y = -1
+            //        },
+            //        new ToaDo()
+            //        {
+            //            x = 1,
+            //            y = -1
+            //        }
+            //    };
+            //TuGiac tuGiac = new TuGiac()
+            //{
+            //    dinh1 = dinhs.OrderByDescending(x => x.y).ThenBy(x => x.x).First(),
+            //    dinh2 = dinhs.OrderByDescending(x => x.y).ThenBy(x => x.x).ElementAt(1),
+            //    dinh3 = dinhs.OrderBy(x => x.y).ThenBy(x => x.x).First(),
+            //    dinh4 = dinhs.OrderBy(x => x.y).ThenBy(x => x.x).ElementAt(1),
+            //};
+
+            //double a =  tuGiac.DienTich();
             // tính toán
             string x1 = textBox1.Text.ToString();
             string y1 = textBox2.Text.ToString();
@@ -93,6 +125,7 @@ namespace Quadrangle
                         y = int.Parse(y4)
                     }
                 };
+
                 TuGiac tuGiac = new TuGiac()
                 {
                     dinh1 = dinhs.OrderByDescending(x => x.y).ThenBy(x => x.x).First(),
@@ -101,8 +134,8 @@ namespace Quadrangle
                     dinh4 = dinhs.OrderBy(x => x.y).ThenBy(x => x.x).ElementAt(1),
                 };
 
-                label15.Text = tuGiac.ChuVi().ToString();
-                label16.Text = tuGiac.DienTich().ToString();
+                label15.Text = tuGiac.DienTich().ToString();
+                label16.Text = tuGiac.ChuVi().ToString();
             }
         }
 
